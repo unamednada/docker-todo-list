@@ -10,12 +10,12 @@ services:
   todofront:
     depends_on:
       - todoback
-    image: todofrontend
+    image: todofront
     ports:
       - '3000:3000'
     environment:
       - REACT_APP_API_HOST=todoback
   todoback:
-    image: todobackend
+    image: todoback
     ports:
       - '3001:3001'
