@@ -1,0 +1,5 @@
+build:
+  docker:
+    todotests: docker/todo-app/tests/Dockerfile
+    todoback: docker/todo-app/back-end/Dockerfile
+    todofront: docker/todo-app/front-end/Dockerfile
