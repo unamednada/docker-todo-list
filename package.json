@@ -4,8 +4,7 @@
   "description": "Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand --detectOpenHandles --forceExit --verbose",
-    "start": "cd docker && docker-compose up"
+    "test": "jest --runInBand --detectOpenHandles --forceExit --verbose"
   },
   "repository": {
     "type": "git",
