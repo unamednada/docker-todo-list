@@ -2,6 +2,21 @@
 
 Projeto realizado configurando Dockerfile para cada componente integrante (front-end, back-end e tests) e um docker-compose para o deploy local da aplicação.
 
+Para o deploy público da aplicação, ela foi dividida em duas: o cliente e o servidor. Deploy feito no Heroku em dois conteineres:
+  - [Frontend](https://unamednada-todo-front.herokuapp.com/)
+  - [Backend](https://unamednada-todo-back.herokuapp.com/)
+
+**LISTA DE ENDPOINTS**:
+
+  - `GET /tasks`;
+  - `POST /task`;
+  - `GET /task/<id>`;
+  - `DELETE /task/<id>`;
+  - `PUT /task/<id>`;
+
+Para ver as mudanças necessárias ao deploy no Heroku, verifique [as branches](https://github.com/unamednada/docker-todo-list/branches) correspondentes às aplicações aqui mesmo no repositório principal.
+
+
 Projeto incentivado pela Trybe, no módulo de back-end do curso de Desenvolvimento Web.
 
 ---
